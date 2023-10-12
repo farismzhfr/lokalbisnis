@@ -1,0 +1,274 @@
+/*========================================= Section Navbar =========================================*/
+.navbar {
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+}
+.navbar .container {
+}
+.navbar .container .navbar-brand {
+  outline: none !important;
+}
+.navbar .container .navbar-collapse {
+}
+.navbar .container .navbar-collapse .navbar-nav {
+}
+.navbar .container .navbar-collapse .navbar-nav .nav-item {
+  padding: 3px 20px;
+}
+.navbar .container .navbar-collapse .navbar-nav .nav-item .nav-link {
+}
+.navbar .container .navbar-collapse .navbar-nav .nav-item:last-child {
+  background-color: #ffffff;
+  opacity: 50%;
+  border-radius: 50px;
+}
+.navbar .container .navbar-collapse .navbar-nav .nav-item:last-child .nav-link {
+  color: #000000;
+}
+/*========================================= End Section Navbar =========================================*/
+
+/*========================================= Popup Login =========================================*/
+.popup-login {
+}
+.popup-login .modal-dialog {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+}
+.popup-login .modal-dialog .modal-content {
+  display: block;
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  width: 50%;
+  text-align: center;
+  padding: 50px;
+}
+.popup-login .modal-dialog .modal-content .btn-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+/*========================================= End Popup Login =========================================*/
+
+/*========================================= Popup Register =========================================*/
+.popup-register {
+}
+.popup-register .modal-dialog {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+}
+.popup-register .modal-dialog .modal-content {
+  display: block;
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  width: 50%;
+  text-align: center;
+  padding: 50px;
+}
+.popup-register .modal-dialog .modal-content .btn-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+/*========================================= End Popup Register =========================================*/
+
+/*========================================= Section Header =========================================*/
+.section-header {
+}
+.section-header .carousel-inner {
+}
+.section-header .carousel-inner .carousel-item {
+  position: relative;
+}
+.section-header .carousel-inner .carousel-item .text {
+  position: absolute;
+  margin: 0 auto;
+  top: 40%;
+  left: 0;
+  right: 0;
+  width: 70%;
+  text-align: center;
+}
+.section-header .carousel-inner .carousel-item .text h1 {
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  height: 80px;
+}
+.section-header .carousel-inner .carousel-item .text p {
+  color: #ffffff;
+}
+.section-header .carousel-inner .carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+/*========================================= End Section Header =========================================*/
+
+/*========================================= Section Our Product =========================================*/
+.section-our-product {
+  padding: 100px 150px;
+  text-align: center;
+}
+.section-our-product h2 {
+  margin-bottom: 80px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.section-our-product .item {
+  display: inline-block;
+  margin: 20px;
+  width: 20%;
+  height: auto;
+}
+.section-our-product .item img {
+  margin-bottom: 10px;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.section-our-product .item h3 {
+}
+/*========================================= End Section Our Product =========================================*/
+
+/*========================================= Section Our Partner =========================================*/
+.section-our-partner {
+  padding: 100px 0;
+  text-align: center;
+}
+.section-our-partner h2 {
+  margin-bottom: 80px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.section-our-partner .item {
+  display: inline-block;
+  margin: 20px;
+  width: 30%;
+  height: auto;
+}
+.section-our-partner .item img {
+  margin-bottom: 10px;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.section-our-partner .item h3 {
+}
+/*========================================= End Section Our Partner =========================================*/
+
+/*========================================= Section News =========================================*/
+.section-news {
+  padding: 100px 140px;
+  background-color: #dddddd;
+}
+.section-news h2 {
+  margin-bottom: 50px;
+}
+.section-news .carousel-inner {
+}
+.section-news .carousel-inner .carousel-item {
+}
+.section-news .carousel-inner .carousel-item .wrapper {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.section-news .carousel-inner .carousel-item .wrapper .cardbox {
+  display: inline-block;
+  margin: 10px;
+  width: 47%;
+  height: 500px;
+  border-radius: 10px;
+  vertical-align: top;
+  overflow: hidden;
+  background: white;
+}
+.section-news .carousel-inner .carousel-item .wrapper .cardbox img {
+  margin-bottom: 15px;
+  width: 100%;
+}
+.section-news .carousel-inner .carousel-item .wrapper .cardbox h3 {
+  margin-bottom: 15px;
+  padding: 0 15px;
+  text-align: left;
+}
+.section-news .carousel-inner .carousel-item .wrapper .cardbox p {
+  text-align: justify;
+  padding: 0 15px 10px;
+}
+.section-news .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.section-news .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+/*========================================= End Section News =========================================*/
+
+/*========================================= Section Footer =========================================*/
+
+.section-footer {
+  background-color: #000000;
+  padding: 100px 100px;
+  color: #ffffff;
+}
+.section-footer h3 {
+  margin-bottom: 30px;
+}
+.section-footer table {
+}
+.section-footer table tr {
+}
+.section-footer table td {
+  vertical-align: top;
+}
+.section-footer table td img {
+  margin-right: 10px;
+}
+/*  
+.section-footer h2 {
+}
+.section-footer h3 {
+  display: inline-block;
+  padding-left: 382px;
+
+  text-align: center;
+}
+.section-footer .contact p {
+  display: inline-flex;
+  padding-left: 5px;
+}
+.section-footer .contact img {
+  padding-left: 371px;
+}
+.section-footer .sosial p {
+  display: inline-flex;
+  text-align: justify;
+  padding-left: 5px;
+}
+.section-footer .sosial img {
+  padding-left: 884px;
+}
+*/
+/*========================================= End Section Footer =========================================*/

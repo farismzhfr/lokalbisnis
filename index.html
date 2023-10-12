@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lokal Bisnis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Section Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Lokal Bisnis</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#our-product">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#our-partner">Partnership</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#news">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Login/Daftar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- =========================== POPUP =========================== -->
+    <div class="modal fade popup-login" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Tampilan Konten -->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h2>Masuk</h2>
+          <p>Pilih peran anda masukkan username dan paswoard untuk masuk ke <b>Lokal Bisnis.</b></p>
+          <form>
+            <div class="mb-3">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Piliih peran anda</option>
+                <option value="1">Penjual</option>
+                <option value="2">Pembeli</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+            </div>
+            <div class="mb-3">
+              <input type="password" placeholder="Password" class="form-control" id="exampleInputPassword1" />
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+            </div>
+            <!-- <button type="submit" class="btn btn-primary">Login</button> -->
+            <a class="btn btn-primary" href="home.html">Login</a>
+          </form>
+          <p>
+            Anda belum punya akun? <a data-bs-toggle="modal" data-bs-target="#exampleModal02" href="#"><b>Register</b></a>
+          </p>
+          <!-- Tampilan Konten -->
+        </div>
+      </div>
+    </div>
+    <!-- =========================== POPUP =========================== -->
+    <!-- =========================== POPUP =========================== -->
+    <div class="modal fade popup-register" id="exampleModal02" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Tampilan Konten -->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h2><b>Daftar Sekarang</b></h2>
+          <p>Daftarkan UMKM anda sekarang di <b>Lokal Bisnis.</b></p>
+          <form>
+            <div class="mb-3">
+              <input type="text" placeholder="username" class="form-control" id="exampleInputUsername" aria-describedby="usernameHelp" />
+            </div>
+            <div class="mb-3">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Piliih peran anda</option>
+                <option value="1">Penjual</option>
+                <option value="2">Pembeli</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <input type="email" placeholder="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+            </div>
+            <div class="mb-3">
+              <input type="password" placeholder="password" class="form-control" id="exampleInputPassword1" />
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" placeholder="checkbox" class="form-check-input" id="exampleCheck1" />
+            </div>
+            <!-- <button type="submit" class="btn btn-primary">Login</button> -->
+            <a class="btn btn-primary" href="index.html">Daftar</a>
+          </form>
+          <p>
+            Anda Sudah punya akun? <a data-bs-toggle="modal" data-bs-target="#exampleModal01" href="#"><b>Login</b></a>
+          </p>
+          <!-- Tampilan Konten -->
+        </div>
+      </div>
+    </div>
+    <!-- =========================== POPUP =========================== -->
+    <!-- End Section Navbar -->
+
+    <!-- Section Header -->
+    <div id="header" class="section-header carousel slide">
+      <div class="carousel-inner">
+        <!-- Slider 1 -->
+        <div class="carousel-item active">
+          <div class="text">
+            <h1>Jelajahi Ragam Produk UMKM di Bawah Satu Atap</h1>
+            <p>
+              Selamat datang di platform kami yang membanggakan! Kami adalah jembatan antara Anda dan UMKM yang menghidupkan ekonomi lokal. Temukan beragam produk berkualitas dari UMKM di seluruh Indonesia dengan mudah. Dari kuliner lezat
+              hingga kerajinan tangan unik, semuanya ada di sini.
+            </p>
+          </div>
+          <img src="assets/carousell/Property 1=Default.png" />
+        </div>
+        <!-- End Slider 1 -->
+        <!-- Slider 2 -->
+        <div class="carousel-item">
+          <div class="text">
+            <h1>Gaya Anda, Kreativitas Lokal!</h1>
+            <p>
+              Perbarui gaya Anda dengan busana berkualitas dari UMKM kami. Temukan pakaian unik dan desain kreatif dari desainer lokal yang berbakat. Dengan setiap pembelian, Anda tidak hanya tampil stylish tetapi juga mendukung pertumbuhan
+              industri fashion lokal. Jelajahi koleksi busana UMKM kami hari ini!
+            </p>
+          </div>
+          <img src="assets/carousell/Property 1=Var 2.png" />
+        </div>
+        <!-- End Slider 2 -->
+        <!-- Slider 3 -->
+        <div class="carousel-item">
+          <div class="text">
+            <h1>Eksplorasi Kulinernya, Dukung UMKM!</h1>
+            <p>
+              Siapa bilang menikmati kuliner lezat harus sulit? Temukan aneka makanan lezat dari UMKM kami. Nikmati cita rasa autentik dari berbagai daerah di Indonesia, sambil mendukung pengusaha kecil lokal. Beli sekarang dan rasakan
+              kelezatan UMKM.
+            </p>
+          </div>
+          <img src="assets/carousell/Carousell (2).png" />
+        </div>
+        <!-- End Slider 3 -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- End Header -->
+
+    <!-- Section Our Product -->
+    <div id="our-product" class="section-our-product">
+      <h2>Our Product</h2>
+      <div class="item">
+        <img src="assets/our product/Ellipse 1.png" />
+        <h3>Busana</h3>
+      </div>
+      <div class="item">
+        <img src="assets/our product/Ellipse 1 (1).png" />
+        <h3>Makanan</h3>
+      </div>
+      <div class="item">
+        <img src="assets/our product/Ellipse 1 (2).png" />
+        <h3>Minuman</h3>
+      </div>
+      <div class="item">
+        <img src="assets/our product/Ellipse 1 (3).png" />
+        <h3>Agribisnis</h3>
+      </div>
+      <div class="item">
+        <img src="assets/our product/Ellipse 1 (4).png" />
+        <h3>Kerajinan Tangan</h3>
+      </div>
+      <div class="item">
+        <img src="assets/our product/Ellipse 1 (5).png" />
+        <h3>Kesehatan</h3>
+      </div>
+      <div class="item">
+        <img src="assets/our product/Ellipse 1 (6).png" />
+        <h3>Teknologi</h3>
+      </div>
+      <div class="item">
+        <img src="assets/our product/Ellipse 1 (7).png" />
+        <h3>Kecantikan</h3>
+      </div>
+    </div>
+    <!-- End Section Our Product -->
+
+    <!-- Section Our Partner -->
+    <div id="our-partner" class="section-our-partner">
+      <h2>Our Partner</h2>
+      <div class="item">
+        <img src="assets/our partner/Ellipse 1@2x.png" />
+        <h3>Floyd</h3>
+      </div>
+      <div class="item">
+        <img src="assets/our partner/Ellipse 1 (8).png" />
+        <h3>Wade</h3>
+      </div>
+      <div class="item">
+        <img src="assets/our partner/Ellipse 1 (9).png" />
+        <h3>Darrel</h3>
+      </div>
+      <div class="item">
+        <img src="assets/our partner/Ellipse 1 (10).png" />
+        <h3>Francisco</h3>
+      </div>
+      <div class="item">
+        <img src="assets/our partner/Ellipse 1 (11).png" />
+        <h3>Ronald</h3>
+      </div>
+      <div class="item">
+        <img src="assets/our partner/Ellipse 1 (12).png" />
+        <h3>Robert</h3>
+      </div>
+    </div>
+    <!-- End Section Our Partner -->
+
+    <!-- Section News-->
+    <div id="news" class="section-news carousel slide">
+      <h2>News</h2>
+      <div class="carousel-inner">
+        <!-- Slider 1 -->
+        <div class="carousel-item active">
+          <div class="wrapper">
+            <div class="cardbox">
+              <img src="assets/news/unsplash_UEQvUtRs224.png" />
+              <h3>Inovasi Teknologi Mendongkrak UMKM</h3>
+              <p>
+                Jakarta, 29 September 2023 - UMKM semakin beradaptasi dengan era digital dengan cepat. Dalam upaya untuk meningkatkan daya saing mereka, banyak UMKM telah mengadopsi inovasi teknologi seperti e-commerce, media sosial, dan
+                analitik data. Hasilnya, mereka mampu mencapai pasar yang lebih luas dan meraih kesuksesan yang lebih besar.
+              </p>
+            </div>
+            <div class="cardbox">
+              <img src="assets/news/unsplash_WYd_PkCa1BY.png" />
+              <h3>Pemerintah Dukung UMKM Lokal</h3>
+              <p>
+                Jakarta, 28 September 2023 - Pemerintah pusat telah mengumumkan langkah-langkah baru dalam mendukung Usaha Mikro, Kecil, dan Menengah (UMKM) di seluruh negeri. Program Kemitraan UMKM akan memberikan peluang bagi UMKM lokal
+                untuk berkembang dan bersaing secara lebih efektif di pasar domestik dan internasional.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End Slider 1 -->
+        <!-- Slider 2 -->
+        <div class="carousel-item">
+          <div class="wrapper">
+            <div class="cardbox">
+              <img src="assets/news/unsplash_WYd_PkCa1BY.png" />
+              <h3>Pemerintah Dukung UMKM Lokal</h3>
+              <p>
+                Jakarta, 28 September 2023 - Pemerintah pusat telah mengumumkan langkah-langkah baru dalam mendukung Usaha Mikro, Kecil, dan Menengah (UMKM) di seluruh negeri. Program Kemitraan UMKM akan memberikan peluang bagi UMKM lokal
+                untuk berkembang dan bersaing secara lebih efektif di pasar domestik dan internasional.
+              </p>
+            </div>
+            <div class="cardbox">
+              <img src="assets/news/unsplash_LETdkk7wHQk.png" />
+              <h3>Suara UMKM : Mendorong Komunitas</h3>
+              <p>
+                BANDUNG, 10 Oktober 2023 - Komunitas UMKM di Bandung aktif dalam membangun suara mereka sendiri untuk mendorong pemberdayaan komunitas lokal. Mereka telah mengadakan berbagai acara dan pertemuan yang bertujuan untuk
+                mempromosikan kerja sama antara pelaku UMKM dan mendukung pertumbuhan ekonomi di wilayah ini.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End Slider 2 -->
+        <!-- Slider 3 -->
+        <div class="carousel-item">
+          <div class="wrapper">
+            <div class="cardbox">
+              <img src="assets/news/unsplash_LETdkk7wHQk.png" />
+              <h3>Suara UMKM : Mendorong Komunitas</h3>
+              <p>
+                BANDUNG, 10 Oktober 2023 - Komunitas UMKM di Bandung aktif dalam membangun suara mereka sendiri untuk mendorong pemberdayaan komunitas lokal. Mereka telah mengadakan berbagai acara dan pertemuan yang bertujuan untuk
+                mempromosikan kerja sama antara pelaku UMKM dan mendukung pertumbuhan ekonomi di wilayah ini.
+              </p>
+            </div>
+            <div class="cardbox">
+              <img src="assets/news/unsplash_UEQvUtRs224.png" />
+              <h3>Inovasi Teknologi Mendongkrak UMKM</h3>
+              <p>
+                Jakarta, 29 September 2023 - UMKM semakin beradaptasi dengan era digital dengan cepat. Dalam upaya untuk meningkatkan daya saing mereka, banyak UMKM telah mengadopsi inovasi teknologi seperti e-commerce, media sosial, dan
+                analitik data. Hasilnya, mereka mampu mencapai pasar yang lebih luas dan meraih kesuksesan yang lebih besar.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End Slider 3 -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#news" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#news" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- End Section News-->
+
+    <!-- Section Footer -->
+    <div id="footer" class="section-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <h2>Lokal Bisnis</h2>
+          </div>
+          <div class="col-lg-4">
+            <h3>Contact</h3>
+            <table>
+              <tr>
+                <td><img src="assets/logo contact/Vector.png" /></td>
+                <td><p>+6285678901234</p></td>
+              </tr>
+              <tr>
+                <td><img src="assets/logo contact/Vector (1).png" /></td>
+                <td><p>lokal.bisnis@gmail.com</p></td>
+              </tr>
+              <tr>
+                <td><img src="assets/logo contact/Vector (2).png" /></td>
+                <td><p>+JL. Soedirman No 13 Jakarta Pusat</p></td>
+              </tr>
+            </table>
+          </div>
+          <div class="col-lg-4">
+            <h3>Sosial Media</h3>
+            <table>
+              <tr>
+                <td><img src="assets/icon/Instagram.png" /></td>
+                <td><p>LokalBisnizz</p></td>
+              </tr>
+              <tr>
+                <td><img src="assets/icon/linkedin.png" /></td>
+                <td><p>Web Macro 4</p></td>
+              </tr>
+              <tr>
+                <td><img src="assets/icon/Github.png" /></td>
+                <td><p>Macro 4</p></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- End Contact -->
+    </div>
+    <!-- End Section Footer-->
+
+    <!-- JQuery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
