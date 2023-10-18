@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Product</title>
+
+    <!-- LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- STYLE -->
+    <style>
+      h5 a,
+      .link-none {
+        text-decoration: none;
+        /* Menghapus underline */
+        color: black;
+        /* Mengatur warna teks menjadi hitam */
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Section Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container">
+        <a class="navbar-brand" href="home.html">Lokal Bisnis</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#our-product">Store</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="list-umkm.html">UMKM</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> More </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="aboutus.html">About Us</a></li>
+                <li><a class="dropdown-item" href="faq.html">Faq's</a></li>
+              </ul>
+            </li>
+            <li class="nav-item nav-profile">
+              <a class="nav-link" href="profile.html">Wade</a>
+              <img src="assets/icon/Person.png" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Section Navbar -->
+
+    <!-- Section Header -->
+    <div id="header" class="section-header carousel slide">
+      <div class="carousel-inner">
+        <!-- Slider 1 -->
+        <div class="carousel-item active" style="height: 500px">
+          <div class="text">
+            <h1 style="height: fit-content">Kaos</h1>
+            <p>Rp. 30.000</p>
+            <a class="btn btn-primary" href="">Chat</a>
+          </div>
+          <img src="assets/home page/product/kaos.png" />
+        </div>
+        <!-- End Slider 1 -->
+      </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- List Produk UMKM -->
+    <div class="section-list-produk-umkm m-5 p-0 px-5">
+      <h2>Our Store</h2>
+      <a class="link-none" href="profile-umkm.html">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- Item -->
+            <div class="col-lg-12 p-0">
+              <div class="wrapper m-0" style="width: auto">
+                <div class="image" style="width: 300px">
+                  <img src="assets/list umkm/vb.jpg" />
+                </div>
+                <div class="info">
+                  <h3>Vogue Vibes</h3>
+                  <p>Busana</p>
+                  <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Bandung, Jawa Barat</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Item -->
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- End List Produk UMKM -->
+
+    <!-- Deskripsi Produk -->
+    <div class="m-5 px-5">
+      <h2>Deskripsi</h2>
+      <p>
+        Kaos kami memiliki potongan yang pas dan memadukan gaya yang trendi dengan kualitas tahan lama. Mereka cocok untuk berbagai kesempatan, mulai dari santai di rumah hingga pertemuan sosial atau olahraga ringan. Kain berkualitas tinggi
+        yang kami gunakan membuat kaos kami tetap awet dan tahan lama, sehingga Anda dapat menikmatinya dalam waktu yang lama.
+      </p>
+      <p>
+        Apakah Anda mencari kaos polos yang sederhana, kaos dengan desain yang mencolok, atau bahkan kaos dengan pesan yang lucu atau inspiratif, kami memiliki berbagai pilihan yang dapat memenuhi kebutuhan Anda. Kenakan kaos kami dengan
+        bangga dan nikmati kenyamanan serta gaya yang tak terbantahkan. Kaos adalah pilihan yang tak pernah salah dalam setiap kesempatan.
+      </p>
+      <p><b>Size : S M L</b></p>
+      <p>Selamat berbelanja kaos berkualitas dari koleksi kami!</p>
+    </div>
+    <!-- End Deskripsi Produk -->
+
+    <!-- Ratings -->
+    <div class="m-5 px-5">
+      <h2>Ratings ⭐4.2</h2>
+      <h5 class="mt-3">
+        <a href="#ratings" onclick="showRatings(this)">⭐</a>
+        <a href="#rating-5" onclick="showRatings(this)">5</a>
+        <a href="#rating-4" onclick="showRatings(this)">4</a>
+        <a href="#rating-3" onclick="showRatings(this)">3</a>
+        <a href="#rating-2" onclick="showRatings(this)">2</a>
+        <a href="#rating-1" onclick="showRatings(this)">1</a>
+      </h5>
+      <div id="ratings">
+        <div id="rating-5">
+          <h5 class="mt-3">Rian ⭐5</h5>
+          <p>Produk ini sungguh luar biasa! Bahan yang digunakan sangat nyaman dan berkualitas tinggi. Saya sangat suka desainnya yang unik. Saya telah mendapat banyak pujian ketika mengenakannya. Sangat direkomendasikan!</p>
+
+          <h5 class="mt-3">Ratna ⭐5</h5>
+          <p>Pakaian ini memang layak mendapatkan lima bintang. Saya benar-benar puas dengan pembelian ini. Selain terlihat keren, bahan yang digunakan juga sangat nyaman. Tidak sabar untuk melihat koleksi produk lainnya.</p>
+        </div>
+
+        <div id="rating-4">
+          <h5 class="mt-3">Sarah ⭐4</h5>
+          <p>Saya suka baju ini, tetapi saya merasa ukurannya sedikit lebih besar dari yang saya harapkan. Selain itu, kualitasnya sangat baik dan saya senang dengan desainnya.</p>
+        </div>
+
+        <div id="rating-3">
+          <h5 class="mt-3">Lisa ⭐3</h5>
+          <p>Baju ini biasa saja. Tidak terlalu istimewa, tapi juga tidak buruk. Harganya sesuai dengan kualitasnya.</p>
+        </div>
+
+        <div id="rating-2"></div>
+        <div id="rating-1"></div>
+      </div>
+    </div>
+    <!-- End Ratings -->
+
+    <!-- Section Footer -->
+    <div id="footer" class="section-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <h2>Lokal Bisnis</h2>
+          </div>
+          <div class="col-lg-4">
+            <h3>Contact</h3>
+            <table>
+              <tr>
+                <td><img src="assets/logo contact/Vector.png" /></td>
+                <td>
+                  <p>+6285678901234</p>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="assets/logo contact/Vector (1).png" /></td>
+                <td>
+                  <p>lokal.bisnis@gmail.com</p>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="assets/logo contact/Vector (2).png" /></td>
+                <td>
+                  <p>+JL. Soedirman No 13 Jakarta Pusat</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="col-lg-4">
+            <h3>Sosial Media</h3>
+            <table>
+              <tr>
+                <td><img src="assets/icon/Instagram.png" /></td>
+                <td>
+                  <p>LokalBisnizz</p>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="assets/icon/linkedin.png" /></td>
+                <td>
+                  <p>Web Macro 4</p>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="assets/icon/Github.png" /></td>
+                <td>
+                  <p>Macro 4</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- End Contact -->
+    </div>
+    <!-- End Section Footer-->
+  </body>
+
+  <script>
+    function showRatings(element) {
+      // dapatkan text di dalam a yg di click
+      const no = element.textContent;
+      // console.log(no);
+
+      // dapatkan elemen dengan id ratings
+      const ratings = document.getElementById("ratings");
+      // console.log(ratings)
+
+      // dapatkan semua elemen di dalam ratings dengan id rating-1 sampai rating-5
+      const rating = ratings.querySelectorAll('[id^="rating-"]');
+      // console.log(rating)
+
+      // buat agar semua elemen di rating memiliki display none kecuali elemen dengan id rating-no
+      // menghilangkan semua elemen
+      rating.forEach((element) => {
+        // console.log(element)
+        element.style.display = "none";
+      });
+
+      // memilih elemen dengan id rating-no
+      const selectedRating = document.getElementById(`rating-${no}`);
+      console.log(selectedRating);
+
+      // tampilkan elemen selectedRating
+      if (selectedRating) {
+        selectedRating.style.display = "block";
+      } else if (selectedRating == null) {
+        rating.forEach((element) => {
+          // console.log(element)
+          element.style.display = "block";
+        });
+      }
+    }
+  </script>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+    integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+</html>

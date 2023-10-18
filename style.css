@@ -14,12 +14,16 @@
 }
 .navbar .container .navbar-collapse {
 }
-.navbar .container .navbar-collapse .navbar-nav {
+.navbar .container .navbar-collapse .d-flex {
+  padding: 10px;
 }
-.navbar .container .navbar-collapse .navbar-nav .nav-item {
+.navbar .container .navbar-collapse .d-flex .navbar-nav {
+}
+.navbar .container .navbar-collapse .d-flex .navbar-nav .nav-item {
   padding: 3px 20px;
 }
-.navbar .container .navbar-collapse .navbar-nav .nav-item .nav-link {
+.navbar .container .navbar-collapse .d-flex .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
 }
 .navbar .container .navbar-collapse .navbar-nav .nav-item:last-child {
   background-color: #ffffff;
@@ -28,6 +32,40 @@
 }
 .navbar .container .navbar-collapse .navbar-nav .nav-item:last-child .nav-link {
   color: #000000;
+}
+.nav-profile {
+  background-color: transparent !important;
+  opacity: 1 !important;
+  border-radius: 0 !important;
+}
+.nav-profile .nav-link {
+  color: #ffffff !important;
+}
+.nav-profile a {
+  display: inline-block;
+}
+.nav-profile img {
+  display: inline-block;
+}
+
+.nav-item dropdown {
+  position: relative;
+}
+.navbar form {
+  position: relative;
+  padding-right: 0 !important;
+}
+.navbar form input {
+  margin-right: 0 !important;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+.navbar form svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 8%;
 }
 /*========================================= End Section Navbar =========================================*/
 
@@ -184,6 +222,7 @@
 }
 .section-news h2 {
   margin-bottom: 50px;
+  text-align: center;
 }
 .section-news .carousel-inner {
 }
@@ -272,3 +311,326 @@
 }
 */
 /*========================================= End Section Footer =========================================*/
+
+/* ===================================== Product ===================================== */
+.section-product {
+  padding: 100px 150px;
+  text-align: center;
+}
+.section-product .item {
+  display: inline-block;
+  margin: 20px;
+  width: 20%;
+  height: auto;
+}
+.section-product .item img {
+  margin-bottom: 10px;
+  width: 150px;
+  height: 126px;
+  object-fit: cover;
+}
+/* ===================================== End Product ===================================== */
+
+/* ========================================= PROFILE ===================================== */
+.section-profile-header {
+  position: relative;
+  margin-top: 80px;
+  padding: 100px;
+  width: 100%;
+  height: 370px;
+  background: url(assets/profile-wade/head-01.png);
+  background-repeat: none !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.section-profile-header img {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 50px;
+}
+.section-profile-header .info {
+  display: inline-block;
+  vertical-align: top;
+  width: 380px;
+  height: 200px;
+}
+.section-profile-header .info h1 {
+  color: #ffffff;
+}
+.section-profile-header .info p {
+  color: #ffffff;
+}
+.section-profile-header .info a {
+  display: block;
+  width: 100px;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #000000;
+  background: #dddddd;
+}
+
+.text-profile {
+  position: absolute;
+  background: url(assets/partner/wade.png);
+}
+.text-profile img {
+  border-radius: 100%;
+}
+/* ========================================= END PROFILE ================================== */
+
+/* ==================================PRODUCT UMKM ========================================== */
+.section-product-umkm {
+  padding: 190px 150px;
+  text-align: center;
+}
+.section-product-umkm .item {
+  display: inline-block;
+  margin: 20px;
+  width: 20%;
+  height: auto;
+}
+.section-product-umkm .item img {
+  margin-bottom: 10px;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+/* =====================================END PRODUCT UMKM===================================== */
+
+/* ================================ produc umkm ============================================ */
+.section-product-umkm-store {
+  padding: 50px 150px;
+  text-align: center;
+}
+.section-product-umkm-store .item {
+  display: inline-block;
+  margin: 71px;
+  width: 35%;
+  height: auto;
+}
+.section-product-umkm-store .item img {
+  margin-bottom: 10px;
+  width: 181px;
+  height: 120px;
+  object-fit: cover;
+}
+.section-product-umkm-store .item .image {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
+.section-product-umkm-store .item .brg {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+  box-shadow: 2px 2px 3px;
+  border-radius: 5%;
+  vertical-align: auto;
+}
+/* =========================================== END PRODUCT UMKM================================================== */
+
+/* =========================================== MENU CONTENT ================================================== */
+.section-menu-content {
+  position: relative;
+  padding: 50px 20px;
+}
+.section-menu-content ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+.section-menu-content ul li {
+  display: inline-block;
+  padding: 0 120px;
+}
+.section-menu-content ul li a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+}
+.section-menu-content ul li a:hover {
+  color: grey;
+  text-decoration: none;
+}
+/* =========================================== END MENU CONTENT ================================================== */
+
+/* =========================================== LIST PRODUK UMKM ================================================== */
+.section-list-produk-umkm {
+  padding: 0 80px 100px;
+}
+.section-list-produk-umkm .wrapper {
+  margin: 0 auto 100px;
+  width: 90%;
+  height: 230px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px;
+  overflow: hidden;
+}
+.section-list-produk-umkm .wrapper .image {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+  height: 100%;
+}
+.section-list-produk-umkm .wrapper .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section-list-produk-umkm .wrapper .info {
+  display: inline-block;
+  vertical-align: top;
+  padding: 40px 10px;
+  width: 49%;
+  height: 100%;
+}
+.section-list-produk-umkm .wrapper .info h3 {
+  margin-bottom: 10px;
+}
+.section-list-produk-umkm .wrapper .info p {
+  margin-bottom: 10px;
+}
+.section-list-produk-umkm .wrapper .info .location svg {
+  display: inline-block;
+}
+.section-list-produk-umkm .wrapper .info .location p {
+  display: inline-block;
+}
+/* =========================================== END LIST PRODUK UMKM ================================================== */
+
+/* ========================================== SECTION PRODDUCT PROFILE UMKM ========================================== */
+.section-product-profile-umkm {
+  padding: 0px 100px;
+}
+.section-product-profile-umkm .wrapper {
+  margin: 0 auto 50px;
+  width: 86%;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 3px;
+}
+.section-product-profile-umkm .wrapper .image {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.section-product-profile-umkm .wrapper h3 {
+  margin-bottom: 0;
+  padding: 0 30px;
+}
+.section-product-profile-umkm .wrapper p {
+  margin-bottom: 25px;
+  padding: 0 30px;
+}
+/* ========================================== SECTION PRODDUCT PROFILE UMKM ========================================== */
+
+/* ========================================== SECTION PROFILE WADE =================================================== */
+.section-about-me {
+  padding: 100px 220px;
+}
+.section-about-me h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.section-about-me p {
+  text-align: center;
+}
+.section-about-me .wrapper p {
+}
+
+.section-biodata {
+  padding: 100px 100px;
+  background-color: #dddddd;
+}
+
+.section-biodata {
+  padding: 100px 100px;
+}
+.section-biodata h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.section-biodata p {
+  text-align: center;
+}
+.section-biodata .wrapper p {
+}
+/* =======================================================SECTION FAVORITE WADE ========================================== */
+.section-favorite {
+  padding: 150px 100px 0px 100px;
+}
+.section-favorite h2 {
+  text-align: center;
+  height: 70px;
+}
+.section-favorite .wrapper {
+  margin: 0 auto 100px;
+  width: 90%;
+  height: 230px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px;
+  overflow: hidden;
+}
+.section-favorite .wrapper .image {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+  height: 100%;
+}
+.section-favorite .wrapper .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section-favorite .wrapper .info {
+  display: inline-block;
+  vertical-align: top;
+  padding: 40px 10px;
+  width: 49%;
+  height: 100%;
+}
+.section-favorite .wrapper .info h3 {
+  margin-bottom: 10px;
+}
+.section-favorite .wrapper .info p {
+  margin-bottom: 10px;
+}
+.section-favorite .wrapper .info .location svg {
+  display: inline-block;
+}
+.section-favorite .wrapper .info .location p {
+  display: inline-block;
+}
+/* ======================================================= END SECTION FAVORITE WADE ========================================== */
+
+/* =======================================================SECTION FAVORITE2 WADE ========================================== */
+.section-favorite2 {
+  padding: 0px 150px;
+}
+.section-favorite2 .wrapper {
+  margin: 0 auto 50px;
+  width: 86%;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 3px;
+}
+.section-favorite2 .wrapper .image {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.section-favorite2 .wrapper h3 {
+  margin-bottom: 0;
+  padding: 0 30px;
+}
+.section-favorite2 .wrapper p {
+  margin-bottom: 25px;
+  padding: 0 30px;
+}
+/* =======================================================SECTION FAVORITE2 WADE ========================================== */
+
+/* ========================================== END SECTION PROFILE WADE =================================================== */
